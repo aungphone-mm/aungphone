@@ -1,0 +1,33 @@
+A:link {text-decoration:none;  font-weight:bold;
+				  font-family:arial;
+				  color:royalblue; font-size:11pt;}
+A:visited {text-decoration: none; font-weight:bold;
+				     font-family:arial;
+				     color:royalblue; font-size:11pt;}
+A:active {text-decoration: none;font-weight:bold;
+				    font-family:arial;
+				    color:black; font-size:11pt;}
+A:hover {text-decoration: underline; 
+				   font-family:arial;
+				   color:#D19275; font-size:11pt;}
+
+
+td.qq{
+	text-align: center;
+	}
+
+td.ww{	
+	padding:0px 0px 7px 0px;
+	border-bottom-style:groove;
+	border-right-style:groove;
+	}
+
+td.space{
+	text-align: center;
+	padding:0px 60px 20px 8px;
+	}
+
+td.rr{	
+	border-right-style:groove;
+	border-left-style:groove;
+	}

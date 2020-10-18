@@ -1,0 +1,2 @@
+# aungphone
+static web page

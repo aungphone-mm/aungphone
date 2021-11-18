@@ -1,3 +1,1 @@
 # aungphone
-
-Member, register project

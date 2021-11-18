@@ -1,2 +1,3 @@
 # aungphone
-static web page
+
+Member, register project

